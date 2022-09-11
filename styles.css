@@ -18,7 +18,7 @@ body {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
-  padding: 25px;
+  padding: 20px;
 }
 
 #question-title {
@@ -26,15 +26,15 @@ body {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
   margin-top:70px;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .input-section {
   display: flex;
   padding: 10px;
-  margin-left: 440px;
-  margin-right: 440px;
-  border-radius: 10px;
+  border-radius: 12px;
+  margin-left: 430px;
+  margin-right: 430px;
   background-color: #ffffff;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
@@ -66,27 +66,40 @@ input[type=radio] {
   border: none;
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
+  padding-top: 5px;
   border-radius: 5px;
   margin-top: 15px;
-  height: 35px;
-  width: 210px;
+  height: 32px;
+  width: 205px;
 
 }
 
 .bottom-section {
   display: flex;
   justify-content: center;
+  border-radius: 12px;
   margin-top: 100px;
   height: 150px;
   width: 800px;
   margin-left: 320px;
-  border-radius: 10px;
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
 }
 
-#meditate-svg{
+.meditate-photo {
   height: 80px;
   width: 80px;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  color: #000000;
+  text-align: center;
 }
