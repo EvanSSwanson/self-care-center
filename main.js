@@ -6,7 +6,7 @@ var image = document.querySelector(".meditate-photo");
 var message = document.querySelector("p");
 
 //Event Listeners
-receiveButton.addEventListener("click", function1);
+receiveButton.addEventListener("click", toggleLists);
 
 //Message Arrays
 var affirmations = [
@@ -47,3 +47,12 @@ var messageType;
 var randomNumber;
 var currentMessage;
 var currentList;
+
+//Functions
+function checkType(){
+  for(var i = 0; i < radioPair.length; i++){
+    if(radioPair[i].checked === true){
+      messageType = radioPair[i].value;
+    }
+  }
+};
