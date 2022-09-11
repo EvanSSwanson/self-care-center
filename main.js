@@ -69,7 +69,12 @@ function checkType(){
 };
 
 function displayMessage() {
-}
+  image.className = "meditate-photo hidden";
+  randomNumber = makeRandomNumber(currentList.length);
+  currentMessage = currentList[randomNumber];
+  message.innerText = currentMessage;
+};
+
 function makeRandomNumber(arrayLength) {
   return Math.floor(Math.random() * arrayLength);
 };
