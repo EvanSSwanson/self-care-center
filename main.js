@@ -67,3 +67,9 @@ function checkType(){
     }
   }
 };
+
+function displayMessage() {
+}
+function makeRandomNumber(arrayLength) {
+  return Math.floor(Math.random() * arrayLength);
+};
