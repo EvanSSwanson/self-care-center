@@ -8,22 +8,22 @@
     <h1 id="main-title">✨ Self Care Center ✨</h1>
     <h2 id="question-title">Which type of message?</h2>
     <section class="input-section">
-      <div id="radio-pair">
+      <section id = "radio-pair">
         <div id="radio-one">
-          <input id="affirmation-button" name="radio-button" type="radio" value"affirmation">
-            <label><em>affirmation</em></label>
+          <input type="radio" class="radio-buttons" id="radio-affirmation" name="message_type" value="affirmation">
+          <label for="radio-affirmation"><em>affirmation</em></label>
         </div>
         <div id="radio-two">
-          <input id="mantra-button" name="radio-button" type="radio" value="mantra">
-            <label><em>mantra</em></label>
+          <input type="radio" class="radio-buttons" id="radio-mantra" name="message_type" value="mantra">
+          <label for="radio-mantra"><em>mantra</em></label>
         </div>
-      </div>
-        <input id="receive-message-button" type="button" value="Receive Message">
+      </section>
+        <button id="receive-message-button">Receive Message</button>
     </section>
     <section class="bottom-section">
-      <img id="meditate-svg" class="image" src="./assets/meditate.svg" alt="person meditating">
-      <p></p>
-    </section>
+        <img class="meditate-photo" id = "meditator" src="assets/meditate.svg" alt="meditating person icon">
+        <p></p>
+      </section>
     <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
