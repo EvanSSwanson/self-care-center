@@ -10,8 +10,8 @@ var customMessage = document.querySelector("#custom-entry");
 
 //Event Listeners
 receiveButton.addEventListener("click", toggleLists);
-//affirmationButton.addEventListener("click", addAffirmation);
-//mantraButton.addEventListener("click", addMantra);
+affirmationButton.addEventListener("click", addAffirmation);
+mantraButton.addEventListener("click", addMantra);
 
 //Message Arrays
 var affirmations = [
@@ -53,8 +53,17 @@ var randomNumber;
 var currentMessage;
 var currentList;
 
+//AddCustom Functions
+function addAffirmation() {
+  affirmations.push(customMessage.value)
+}
+function addMantra() {
+  mantras.push(customMessage.value)
+}
+
 //Functions
 function toggleLists() {
+  customMessage.value = ""
   checkType();
     if(messageType === "affirmation"){
       currentList = affirmations;
