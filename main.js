@@ -49,6 +49,17 @@ var currentMessage;
 var currentList;
 
 //Functions
+function toggleLists() {
+  checkType();
+    if(messageType === "affirmation"){
+      currentList = affirmations;
+        displayMessage();
+      } else if(messageType === "mantra"){
+      currentList = mantras;
+        displayMessage();
+    }
+};
+
 function checkType(){
   for(var i = 0; i < radioPair.length; i++){
     if(radioPair[i].checked === true){
