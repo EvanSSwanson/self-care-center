@@ -1,13 +1,14 @@
 
 //HTML elements
-var radioPair = document.querySelectorAll(".radio-pair")
-var receiveButton = document.querySelector("#receive-message-button")
-var image = document.querySelector(".image")
-var message = document.querySelector("p")
+var radioPair = document.querySelectorAll(".radio-buttons");
+var receiveButton = document.querySelector("#receive-message-button");
+var image = document.querySelector(".meditate-photo");
+var message = document.querySelector("p");
 
 //Event Listeners
 receiveButton.addEventListener("click", function1);
 
+//Message Arrays
 var affirmations = [
 "I forgive myself and set myself free.",
 "I believe I can be all that I want to be.",
@@ -22,8 +23,7 @@ var affirmations = [
 "Every day I am getting healthier and stronger.",
 "I honor my body by trusting the signals that it sends me.",
 "I manifest perfect health by making smart choices."
-]
-
+];
 var mantras = [
 "Breathing in, I send myself love. Breathing out, I send love to someone else who needs it.",
 "Don’t let yesterday take up too much of today.",
@@ -40,4 +40,10 @@ var mantras = [
 "The only constant is change.",
 "Onward and upward.",
 "I am the sky, the rest is weather."
-]
+];
+
+//More Variables
+var messageType;
+var randomNumber;
+var currentMessage;
+var currentList;
