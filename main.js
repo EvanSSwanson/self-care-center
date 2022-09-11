@@ -4,9 +4,14 @@ var radioPair = document.querySelectorAll(".radio-buttons");
 var receiveButton = document.querySelector("#receive-message-button");
 var image = document.querySelector(".meditate-photo");
 var message = document.querySelector("p");
+var affirmationButton = document.querySelector("#custom-button1");
+var mantraButton = document.querySelector("#custom-button2");
+var customMessage = document.querySelector("#custom-entry");
 
 //Event Listeners
 receiveButton.addEventListener("click", toggleLists);
+//affirmationButton.addEventListener("click", addAffirmation);
+//mantraButton.addEventListener("click", addMantra);
 
 //Message Arrays
 var affirmations = [

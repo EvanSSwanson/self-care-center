@@ -18,14 +18,14 @@ body {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
-  padding: 20px;
+  padding: 10px;
 }
 
 #question-title {
   text-align: center;
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
-  margin-top:70px;
+  margin-top:40px;
   margin-bottom: 10px;
 }
 
@@ -33,6 +33,7 @@ body {
   display: flex;
   padding: 10px;
   border-radius: 12px;
+  margin-bottom: 20px;
   margin-left: 430px;
   margin-right: 430px;
   background-color: #ffffff;
@@ -71,7 +72,6 @@ input[type=radio] {
   margin-top: 15px;
   height: 32px;
   width: 205px;
-
 }
 
 .bottom-section {
@@ -83,7 +83,6 @@ input[type=radio] {
   width: 800px;
   margin-left: 320px;
   background-color: #ffffff;
-  justify-content: center;
   align-items: center;
 }
 
@@ -102,4 +101,59 @@ p {
   padding: 10px;
   color: #000000;
   text-align: center;
+}
+
+.custom-section {
+  display: flex;
+  padding: 10px;
+  border-radius: 12px;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #ffffff;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #000000;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#custom-prompt {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#custom-entry {
+  padding: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  color: #000000;
+}
+
+#twin-buttons {
+display: flex;
+justify-content: space-between;
+}
+
+#custom-button2 {
+  margin-left: 60px;
+}
+
+.custom-buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #134d71;
+  color: #ffffff;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  padding-top: 5px;
+  border-radius: 5px;
+  margin-top: 15px;
+  height: 32px;
+  width: 100px;
 }
